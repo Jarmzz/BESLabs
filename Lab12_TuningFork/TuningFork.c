@@ -88,15 +88,9 @@ int main(void){// activate grader and set system clock to 80 MHz
 		in = (GPIO_PORTA_DATA_R&0x08); // in 0 if not pressed, 1 if pressed
 
 		// toggles only when pressed another time
-		if (in == 0x08) {
-			if (previous != in) {
+		if (in == 0x08 && previous == 0) {
 				out ^= 1;
-				previous = in;
-			}
-		} else {
-			if (previous != in) {
-				previous = in;
-			}
-		}			
+		}
+		previous = in;
   }
 }
