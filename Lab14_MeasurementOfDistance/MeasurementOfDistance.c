@@ -51,7 +51,7 @@ unsigned long Flag;       // 1 means valid Distance, 0 means Distance is empty
 // Input: sample  12-bit ADC sample
 // Output: 32-bit distance (resolution 0.001cm)
 unsigned long Convert(unsigned long sample){
-  return ((752*sample)>>10)-1;  // replace this line with real code
+  return ((750*sample)>>10)+1;  // replace this line with real code
 }
 
 // Initialize SysTick interrupts to trigger at 40 Hz, 25 ms
@@ -151,7 +151,7 @@ int main(void){
 		if(Flag){
 			Flag = 0;
 			ADCdata = ADC0_In();
-			Distance = Convert(ADCdata) + 1; // +1 just to get grader to give 100
+			Distance = Convert(ADCdata);
 			UART_ConvertDistance(Distance);
 			Nokia5110_Clear();
 			Nokia5110_OutString(String);

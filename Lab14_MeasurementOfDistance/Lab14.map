@@ -352,9 +352,9 @@ Image Symbol Table
     i.lcdwrite                               0x00001b48   Section        0  nokia5110.o(i.lcdwrite)
     lcdwrite                                 0x00001b49   Thumb Code    66  nokia5110.o(i.lcdwrite)
     i.main                                   0x00001b94   Section        0  measurementofdistance.o(i.main)
-    .constdata                               0x00001c04   Section      480  nokia5110.o(.constdata)
-    ASCII                                    0x00001c04   Data         480  nokia5110.o(.constdata)
-    .constdata                               0x00001de4   Section     7056  texas.o(.constdata)
+    .constdata                               0x00001c00   Section      480  nokia5110.o(.constdata)
+    ASCII                                    0x00001c00   Data         480  nokia5110.o(.constdata)
+    .constdata                               0x00001de0   Section     7056  texas.o(.constdata)
     .data                                    0x20000000   Section       16  measurementofdistance.o(.data)
     .data                                    0x20000010   Section      112  texas.o(.data)
     RealGrade                                0x20000020   Data           4  texas.o(.data)
@@ -599,7 +599,7 @@ Image Symbol Table
     ADC0_Init                                0x000003f1   Thumb Code   184  adc.o(i.ADC0_Init)
     ADC1_In                                  0x000004cd   Thumb Code     6  texas.o(i.ADC1_In)
     ADC1_Init                                0x000004d9   Thumb Code   174  texas.o(i.ADC1_Init)
-    Convert                                  0x000005ad   Thumb Code    16  measurementofdistance.o(i.Convert)
+    Convert                                  0x000005ad   Thumb Code    14  measurementofdistance.o(i.Convert)
     Encrypt                                  0x000005bd   Thumb Code    92  texas.o(i.Encrypt)
     Nokia5110_Clear                          0x00000629   Thumb Code    32  nokia5110.o(i.Nokia5110_Clear)
     Nokia5110_Init                           0x00000649   Thumb Code   316  nokia5110.o(i.Nokia5110_Init)
@@ -620,45 +620,45 @@ Image Symbol Table
     checkADCconfiguration                    0x00001655   Thumb Code   150  texas.o(i.checkADCconfiguration)
     checkDisplayconfiguration                0x000016fd   Thumb Code   636  texas.o(i.checkDisplayconfiguration)
     checkLinearity                           0x000019a5   Thumb Code   416  texas.o(i.checkLinearity)
-    main                                     0x00001b95   Thumb Code    90  measurementofdistance.o(i.main)
-    Port                                     0x00001de4   Data          24  texas.o(.constdata)
-    InputPortMsgE2                           0x00001dfc   Data          40  texas.o(.constdata)
-    InputPortMsgE3                           0x00001e24   Data          40  texas.o(.constdata)
-    InputPortMsgE5                           0x00001e4c   Data          40  texas.o(.constdata)
-    OutputPortMsg0                           0x00001e74   Data          40  texas.o(.constdata)
-    OutputPortMsg1                           0x00001e9c   Data          40  texas.o(.constdata)
-    OutputPortMsg2                           0x00001ec4   Data          40  texas.o(.constdata)
-    OutputPortMsg3                           0x00001eec   Data          40  texas.o(.constdata)
-    BlankMsg                                 0x00001f14   Data          40  texas.o(.constdata)
-    InitializedMsg                           0x00001f3c   Data          40  texas.o(.constdata)
-    IntroMsg                                 0x00001f64   Data          40  texas.o(.constdata)
-    DoneMsg                                  0x00001f8c   Data          40  texas.o(.constdata)
-    TestMsg                                  0x00001fb4   Data          40  texas.o(.constdata)
-    LabTest                                  0x00001fdc   Data        5428  texas.o(.constdata)
-    BgTest                                   0x00003510   Data         160  texas.o(.constdata)
-    ADCconfigSuccessMsg                      0x000035b0   Data          25  texas.o(.constdata)
-    ADCconfigErrorMsg                        0x000035c9   Data          29  texas.o(.constdata)
-    ADCconfigNotUsingS3Msg                   0x000035e6   Data          34  texas.o(.constdata)
-    ADCconfigBadTriggerMsg                   0x00003608   Data          35  texas.o(.constdata)
-    ADCconfigBadChannelMsg                   0x0000362b   Data          35  texas.o(.constdata)
-    ADCconfigTemperatureMsg                  0x0000364e   Data          35  texas.o(.constdata)
-    ADCconfigSIENotUsedMsg                   0x00003671   Data          33  texas.o(.constdata)
-    ADCconfigEndNotUsedMsg                   0x00003692   Data          33  texas.o(.constdata)
-    ADCconfigDifferentialMsg                 0x000036b3   Data          36  texas.o(.constdata)
-    DisplaySuccessMsg                        0x000036d7   Data          32  texas.o(.constdata)
-    DisplayErrorMsg                          0x000036f7   Data          35  texas.o(.constdata)
-    DisplayClockOffMsg                       0x0000371a   Data          34  texas.o(.constdata)
-    DisplayUART0WrongMsg                     0x0000373c   Data          33  texas.o(.constdata)
-    DisplayPortAWrongMsg                     0x0000375d   Data          33  texas.o(.constdata)
-    DisplaySSI0WrongMsg                      0x0000377e   Data          32  texas.o(.constdata)
-    Linearity90Msg                           0x0000379e   Data          35  texas.o(.constdata)
-    LinearityErrorMsg                        0x000037c1   Data          30  texas.o(.constdata)
-    LinearityOutMsg                          0x000037df   Data         330  texas.o(.constdata)
-    Key                                      0x00003929   Data           8  texas.o(.constdata)
-    Scramble                                 0x00003934   Data          32  texas.o(.constdata)
-    DeScramble                               0x00003954   Data          32  texas.o(.constdata)
-    Region$$Table$$Base                      0x00003974   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00003994   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x00001b95   Thumb Code    88  measurementofdistance.o(i.main)
+    Port                                     0x00001de0   Data          24  texas.o(.constdata)
+    InputPortMsgE2                           0x00001df8   Data          40  texas.o(.constdata)
+    InputPortMsgE3                           0x00001e20   Data          40  texas.o(.constdata)
+    InputPortMsgE5                           0x00001e48   Data          40  texas.o(.constdata)
+    OutputPortMsg0                           0x00001e70   Data          40  texas.o(.constdata)
+    OutputPortMsg1                           0x00001e98   Data          40  texas.o(.constdata)
+    OutputPortMsg2                           0x00001ec0   Data          40  texas.o(.constdata)
+    OutputPortMsg3                           0x00001ee8   Data          40  texas.o(.constdata)
+    BlankMsg                                 0x00001f10   Data          40  texas.o(.constdata)
+    InitializedMsg                           0x00001f38   Data          40  texas.o(.constdata)
+    IntroMsg                                 0x00001f60   Data          40  texas.o(.constdata)
+    DoneMsg                                  0x00001f88   Data          40  texas.o(.constdata)
+    TestMsg                                  0x00001fb0   Data          40  texas.o(.constdata)
+    LabTest                                  0x00001fd8   Data        5428  texas.o(.constdata)
+    BgTest                                   0x0000350c   Data         160  texas.o(.constdata)
+    ADCconfigSuccessMsg                      0x000035ac   Data          25  texas.o(.constdata)
+    ADCconfigErrorMsg                        0x000035c5   Data          29  texas.o(.constdata)
+    ADCconfigNotUsingS3Msg                   0x000035e2   Data          34  texas.o(.constdata)
+    ADCconfigBadTriggerMsg                   0x00003604   Data          35  texas.o(.constdata)
+    ADCconfigBadChannelMsg                   0x00003627   Data          35  texas.o(.constdata)
+    ADCconfigTemperatureMsg                  0x0000364a   Data          35  texas.o(.constdata)
+    ADCconfigSIENotUsedMsg                   0x0000366d   Data          33  texas.o(.constdata)
+    ADCconfigEndNotUsedMsg                   0x0000368e   Data          33  texas.o(.constdata)
+    ADCconfigDifferentialMsg                 0x000036af   Data          36  texas.o(.constdata)
+    DisplaySuccessMsg                        0x000036d3   Data          32  texas.o(.constdata)
+    DisplayErrorMsg                          0x000036f3   Data          35  texas.o(.constdata)
+    DisplayClockOffMsg                       0x00003716   Data          34  texas.o(.constdata)
+    DisplayUART0WrongMsg                     0x00003738   Data          33  texas.o(.constdata)
+    DisplayPortAWrongMsg                     0x00003759   Data          33  texas.o(.constdata)
+    DisplaySSI0WrongMsg                      0x0000377a   Data          32  texas.o(.constdata)
+    Linearity90Msg                           0x0000379a   Data          35  texas.o(.constdata)
+    LinearityErrorMsg                        0x000037bd   Data          30  texas.o(.constdata)
+    LinearityOutMsg                          0x000037db   Data         330  texas.o(.constdata)
+    Key                                      0x00003925   Data           8  texas.o(.constdata)
+    Scramble                                 0x00003930   Data          32  texas.o(.constdata)
+    DeScramble                               0x00003950   Data          32  texas.o(.constdata)
+    Region$$Table$$Base                      0x00003970   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00003990   Number         0  anon$$obj.o(Region$$Table)
     Size                                     0x20000000   Data           4  measurementofdistance.o(.data)
     Distance                                 0x20000004   Data           4  measurementofdistance.o(.data)
     ADCdata                                  0x20000008   Data           4  measurementofdistance.o(.data)
@@ -696,9 +696,9 @@ Memory Map of the image
 
   Image Entry point : 0x0000026d
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00003a14, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00003a10, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x00000000, Size: 0x00003994, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00003990, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -761,7 +761,8 @@ Memory Map of the image
     0x000003f0   0x000000dc   Code   RO          128    i.ADC0_Init         adc.o
     0x000004cc   0x0000000c   Code   RO          145    i.ADC1_In           texas.o
     0x000004d8   0x000000d4   Code   RO          146    i.ADC1_Init         texas.o
-    0x000005ac   0x00000010   Code   RO           12    i.Convert           measurementofdistance.o
+    0x000005ac   0x0000000e   Code   RO           12    i.Convert           measurementofdistance.o
+    0x000005ba   0x00000002   PAD
     0x000005bc   0x0000006c   Code   RO          148    i.Encrypt           texas.o
     0x00000628   0x00000020   Code   RO           72    i.Nokia5110_Clear   nokia5110.o
     0x00000648   0x0000016c   Code   RO           74    i.Nokia5110_Init    nokia5110.o
@@ -784,10 +785,10 @@ Memory Map of the image
     0x000016fc   0x000002a8   Code   RO          167    i.checkDisplayconfiguration  texas.o
     0x000019a4   0x000001a4   Code   RO          168    i.checkLinearity    texas.o
     0x00001b48   0x0000004c   Code   RO           79    i.lcdwrite          nokia5110.o
-    0x00001b94   0x00000070   Code   RO           16    i.main              measurementofdistance.o
-    0x00001c04   0x000001e0   Data   RO           80    .constdata          nokia5110.o
-    0x00001de4   0x00001b90   Data   RO          171    .constdata          texas.o
-    0x00003974   0x00000020   Data   RO          464    Region$$Table       anon$$obj.o
+    0x00001b94   0x0000006c   Code   RO           16    i.main              measurementofdistance.o
+    0x00001c00   0x000001e0   Data   RO           80    .constdata          nokia5110.o
+    0x00001de0   0x00001b90   Data   RO          171    .constdata          texas.o
+    0x00003970   0x00000020   Data   RO          464    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Base: 0x20000000, Size: 0x00000080, Max: 0xffffffff, ABSOLUTE)
@@ -818,16 +819,16 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       264         44          0          0          0        926   adc.o
-       312         40          0         16         10       4637   measurementofdistance.o
+       264         44          0          0          0        922   adc.o
+       306         38          0         16         10       4637   measurementofdistance.o
        598         62        480          0          0       4967   nokia5110.o
        692        632          0          0       1024        964   startup.o
       5032        592       7056        112        628      28549   texas.o
 
     ----------------------------------------------------------------------
-      6900       1370       7568        128       1668      40043   Object Totals
+      6896       1368       7568        128       1668      40039   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-         2          0          0          0          6          0   (incl. Padding)
+         4          0          0          0          6          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -874,15 +875,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7172       1386       7568        128       1768      39111   Grand Totals
-      7172       1386       7568        128       1768      39111   ELF Image Totals
-      7172       1386       7568        128          0          0   ROM Totals
+      7168       1384       7568        128       1768      39107   Grand Totals
+      7168       1384       7568        128       1768      39107   ELF Image Totals
+      7168       1384       7568        128          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                14740 (  14.39kB)
+    Total RO  Size (Code + RO Data)                14736 (  14.39kB)
     Total RW  Size (RW Data + ZI Data)              1896 (   1.85kB)
-    Total ROM Size (Code + RO Data + RW Data)      14868 (  14.52kB)
+    Total ROM Size (Code + RO Data + RW Data)      14864 (  14.52kB)
 
 ==============================================================================
 
